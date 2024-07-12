@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <GlobalStyle/>
-    <Button/>
+    <Button text="JOIN HYDRA"></Button>
     </>
   )
 }

@@ -1,9 +1,10 @@
 import React from "react";
 import * as S from "./buttonStyle.jsx"
 
-function Button(){
+function Button(props){
     return(
         <>
+        <S.Button>{props.text}</S.Button>
         </>
     )
 }
