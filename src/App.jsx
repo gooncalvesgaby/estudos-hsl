@@ -1,6 +1,7 @@
 import React from "react"
 import {createGlobalStyle} from "styled-components"
 import Button from "./Components/Button/button.jsx"
+import Inicio from "./Components/Inicio/inicio.jsx"
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -14,7 +15,8 @@ function App() {
   return (
     <>
     <GlobalStyle/>
-    <Button text="JOIN HYDRA"></Button>
+    <Inicio/>
+    {/* <Button text="JOIN HYDRA"></Button> */}
     </>
   )
 }
