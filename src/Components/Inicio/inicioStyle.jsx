@@ -4,17 +4,15 @@ export const Header = styled.header`
 `
 export const Div = styled.div`
 background-color: #302C42;
-height: 50vh;
+min-height: 100vh;
 display: flex;
-align-items: center;
 justify-content: space-evenly;
-margin-top: -5rem;
+text-align: center;
 `
 export const Ul = styled.ul`
 list-style: none;
 font-size: 13px;
 display: flex;
-align-items: center;
 `
 
 export const Li = styled.li`
