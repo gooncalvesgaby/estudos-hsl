@@ -1,6 +1,7 @@
 import React from "react";
 import * as S from "./inicioStyle.jsx"
-import Button from "../Button/button.jsx" 
+import Button from "../Button/button.jsx"
+import Buttontwo from "../Buttontwo/buttontwo.jsx"
 
 function Inicio() {
     return (
@@ -13,7 +14,8 @@ function Inicio() {
                     <S.Li>HOW TO</S.Li>
                 </S.Ul>
                 <S.Div2>
-                    <Button text="JOIN HYDRA"/>
+                    <Buttontwo text="CONTACT US" />
+                    <Button text="JOIN HYDRA" />
                 </S.Div2>
             </S.Div>
         </S.Header>
