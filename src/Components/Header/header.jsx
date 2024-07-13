@@ -1,9 +1,9 @@
 import React from "react";
-import * as S from "./inicioStyle.jsx"
+import * as S from "./headerStyle.jsx"
 import Button from "../Button/button.jsx"
 import Buttontwo from "../Buttontwo/buttontwo.jsx"
 
-function Inicio() {
+function Header() {
     return (
         <S.Header>
             <S.Div>
@@ -22,4 +22,4 @@ function Inicio() {
     )
 }
 
-export default Inicio
+export default Header
