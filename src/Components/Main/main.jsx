@@ -22,7 +22,7 @@ function Main() {
                     <S.Img2 src={Arrow} alt="seta para a direita" />
                 </S.Div3>
                 <S.Div4>
-                    <S.Img3 src={Pexels} alt="mulher com óculos" />
+                    <S.Img3 src={Pexels} alt="mulher com oculos" />
                 </S.Div4>
             </S.Div>
         </S.Main>

@@ -6,6 +6,8 @@ height: 60vh;
 `
 
 export const Div = styled.div`
+display: flex;
+justify-content: space-evenly;
 
 `
 export const Div2 = styled.div`
@@ -29,4 +31,5 @@ export const Div4 = styled.div`
 `
 export const Img3 = styled.img`
 width: 25vw;
+border-radius: 80px 75px 30px 115px;
 `
