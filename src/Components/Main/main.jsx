@@ -6,6 +6,7 @@ import Arrow from "../assets/arrow.png"
 import Lorem from "../assets/lorem.png"
 import Pexels from "../assets/pexels.png"
 import Button from "../Button/button.jsx"
+// import Location from "../Location/location.jsx"
 
 
 function Main() {
@@ -24,6 +25,8 @@ function Main() {
                 <S.Div4>
                     <S.Img3 src={Pexels} alt="mulher com oculos" />
                 </S.Div4>
+                {/* <Location/> */}
+
             </S.Div>
         </S.Main>
     )
