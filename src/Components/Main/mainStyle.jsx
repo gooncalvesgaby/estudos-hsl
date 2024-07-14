@@ -33,3 +33,4 @@ export const Img3 = styled.img`
 width: 25vw;
 border-radius: 80px 75px 30px 115px;
 `
+
