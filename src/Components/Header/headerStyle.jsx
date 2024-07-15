@@ -24,3 +24,9 @@ export const Div2 = styled.div`
 display: flex;
 margin-top: 3rem;
 `
+
+export const Img = styled.img`
+width: 10vw;
+height: 15vh;
+margin-top: 3%;
+`
