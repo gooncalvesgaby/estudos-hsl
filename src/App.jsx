@@ -2,7 +2,6 @@ import React from "react"
 import {createGlobalStyle} from "styled-components"
 import Header from "./Components/Header/header.jsx"
 import Main from "./Components/Main/main.jsx"
-import Location from "./Components/Location/location.jsx"
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -18,7 +17,6 @@ function App() {
     <GlobalStyle/>
     <Header/>
     <Main/>
-    <Location/>
     </>
   )
 }
