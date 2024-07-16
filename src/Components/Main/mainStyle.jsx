@@ -11,6 +11,12 @@ justify-content: space-evenly;
 `
 export const Div2 = styled.div`
 display: grid;
+
+@media only screen and (max-width: 768px) {
+flex-direction: column-reverse;
+display: flex;
+align-items: center;
+}
 `
 
 export const Div3 = styled.div`

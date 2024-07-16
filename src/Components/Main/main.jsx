@@ -9,11 +9,6 @@ import Button from "../Button/button.jsx"
 import Location from "../Location/location.jsx"
 import Seta from "../assets/seta.png"
 import Mask from "../assets/mask.png"
-// import Card from "../Card/card.jsx"
-// import Simulation from "../assets/simulation.png"
-// import Education from "../assets/education.png"
-// import Selfcare from "../assets/selfcare.png"
-// import Outdoor from "../assets/outdoor.png"
 
 
 function Main() {
@@ -77,22 +72,6 @@ function Main() {
                     lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae. <br />
                 </p>
             </S.Introduction>
-            {/* <Card image={Simulation}
-                title="SIMULATION"
-                text="Vitae sapien pellentesque
-                      habitant morbi nunc."/>
-            <Card image={Education}
-                title="EDUCATION"
-                text="Vitae sapien pellentesque
-                      habitant morbi nunc."/>
-            <Card image={Selfcare}
-                title="SELF-CARE"
-                text="Vitae sapien pellentesque
-                      habitant morbi nunc."/>
-            <Card image={Outdoor}
-                title="OUTDOOR"
-                text="Vitae sapien pellentesque
-                      habitant morbi nunc."/> */}
         </S.Main>
     )
 }
